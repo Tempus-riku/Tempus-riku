@@ -1,0 +1,168 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Winter 2024 Anime Survey Form</h1>
+    <p id="description">We would like to know what anime will you watch for this season</p>
+
+    <form id="survey-form">
+      <fieldset>
+      <div>
+      <label id="name-label">
+         Name:
+        <input id="name" type="text" required placeholder="Enter your name"/>
+        </label>
+      </div>
+      <div>
+      <label id="email-label">
+         Email:
+        <input id="email" type="email" required placeholder="Enter your Email"/>
+        </label
+      </div>
+      <div>
+      <label id="number-label">
+         Age:
+        <input id="number" type="number" min="9" max="120" required placeholder="Age"/>
+        </label>
+      </div>
+      <div>
+      <label>
+         Where do you watch anime?
+        <select id="dropdown">
+          <option value="">(select one)</option>
+            <option value="1">Streaming sites</option>
+            <option value="2">Television</option>
+        </select>
+         </label>
+      </div>
+      </fieldset>
+      <fieldset>
+        <legend>Sex:</legend>
+        <div>
+      <label><input name="sex" type="radio" class="inline" value="male">Male</label>
+      </div>
+      <div>
+      <label><input name="sex" type="radio" class="inline" value="value">Female</label>
+      </div>
+      </fieldset>
+      <fieldset>
+      <label>Which Anime will you watch this season?</label>
+      <div>
+      <label><input name="anime" type="checkbox" class="inline" value="1">Solo Leveling</label>
+      <img src="https://cdn.myanimelist.net/images/anime/1926/140799.webp">
+      </div>
+      <div>
+      <label><input name="anime" type="checkbox" class="inline" value="2">Classroom of the Elite III</label>
+      <img src="https://cdn.myanimelist.net/images/anime/1332/139318.webp">
+      </div>
+<div>
+      <label><input name="anime" type="checkbox" class="inline" value="3">Mashle: Magic and Muscles - The Divine Visionary Candidate Exam Arc</label>
+      <img src="https://cdn.myanimelist.net/images/anime/1912/140804.webp">
+      </div>
+      <div>
+      <label><input name="anime" type="checkbox" class="inline" value="4">Tsukimichi: Moonlit Fantasy Season 2</label>
+      <img src="https://cdn.myanimelist.net/images/anime/1752/139314.webp">
+      </div>
+      <div>
+      <label><input name="anime" type="checkbox" class="inline" value="5">Delicious in Dungeon</label>
+      <img src="https://cdn.myanimelist.net/images/anime/1938/140374.webp">
+      </div>
+      <div>
+      <label><input name="anime" type="checkbox" class="inline" value="6">A Sign of Affection</label>
+      <img src="https://cdn.myanimelist.net/images/anime/1478/140828.webp">
+      </div>
+      <div>
+      <label><input name="anime" type="checkbox" class="inline" value="7">Chained Soldier</label>
+      <img src="https://cdn.myanimelist.net/images/anime/1114/140805.webp">
+      </div>
+      <div>
+      <label><input name="anime" type="checkbox" class="inline" value="8">The Dangers in My Heart Season 2</label>
+      <img src="https://cdn.myanimelist.net/images/anime/1643/138581.webp">
+      </div>
+</fieldset>
+      <fieldset>
+     <label for="suggest">Provide a suggestion or a comment:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment here:"></textarea>
+        </label>
+        </fieldset>
+    <input id="submit" type="submit">
+      </form>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: Tahoma;
+  font-size: 16px;
+  background-image: url(https://wallpapercave.com/wp/wp3745664.jpg);
+  
+  font-family: sans-serif;
+  padding: 20px;
+  color: white;
+}
+h1, p{
+  margin: 1em auto;
+  text-align: center;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 2em;
+  color: white;
+  background-color: #1b1b32;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: green;
+  border-color: white;
+  min-width: 300px;
+  color: white;
+}
+
+** end of undefined **
