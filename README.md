@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Tempus-riku a beginner in programming 
 - 👀 I’m interested in ... web development
-- 🌱 I’m currently learning ... html, css and javascript
+- 🌱 I’m currently learning ... making API and learning Laravel framework 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 - Surname: Tiangha 
